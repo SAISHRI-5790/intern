@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tribute Page</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:coffe brown;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  header {
+    background-color: black;
+    color: red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2 {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  p {
+    color: white;
+    line-height: 2;
+    text-align: justify;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Tribute to [Person's Name]</h1>
+  </header>
+  <main>
+    <div class="image-container">
+      <img src="https://placekitten.com/800/400" alt="Person's Image">
+    </div>
+    <section>
+      <h2>Introduction</h2>
+      <p>This is where you can introduce the person you are paying tribute to. You can talk about their life, achievements, and contributions.</p>
+    </section>
+    <section>
+      <h2>Early Life</h2>
+      <p>Provide some information about the person's early life, upbringing, and background.</p>
+    </section>
+    <section>
+      <h2>Contributions</h2>
+      <p>Discuss the significant contributions, achievements, or milestones of the person.</p>
+    </section>
+    <section>
+      <h2>Legacy</h2>
+      <p>Highlight the lasting impact or legacy of the person.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Designed by [Your Name] | <a href="https://www.example.com">Source Code</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
